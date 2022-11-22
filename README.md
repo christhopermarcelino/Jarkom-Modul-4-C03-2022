@@ -81,7 +81,6 @@ Terdapat  18 subnet A pada topologi.
 
 ### Pohon Pembagian IP
 
-
-
+![image](https://user-images.githubusercontent.com/34309557/203242453-493f0f94-e6a2-4879-ba12-2130dc6b4560.png)
 
 ## Kendala
