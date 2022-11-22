@@ -14,7 +14,7 @@ Kelompok C03
 ## VLSM
 
 ## CIDR
-**Gambar Topologi pada GNS3**
+### Topologi pada GNS3
 
 ![image](https://user-images.githubusercontent.com/34309557/203185983-fee42a6f-93a9-4460-9a29-25d9522f84b3.png)
 
