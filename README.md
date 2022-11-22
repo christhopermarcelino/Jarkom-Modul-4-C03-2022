@@ -46,6 +46,29 @@ Terdapat  18 subnet A pada topologi.
 
 ![image](https://user-images.githubusercontent.com/34309557/203203185-cdb58712-7291-4b57-8f65-01fe1664d1d3.png)
 
+**Gabungan Subnet Ketiga (Subnet D)**
+
+- Penggabungan subnet C1 dan A2 menjadi D1
+- Penggabungan subnet C2 dan A12 menjadi D2
+
+![image](https://user-images.githubusercontent.com/34309557/203211722-0edfd18e-99d3-48c3-8576-216696be3c45.png)
+
+**Gabungan Subnet Keempat (Subnet E)**
+
+- Penggabungan subnet D1 dan A3 menjadi E1
+- Penggabungan subnet D2 dan C3 menjadi E2
+
+
+**Gabungan Subnet Kelima (Subnet F)**
+
+- Penggabungan subnet E1 dan A4 menjadi F1 
+- Penggabungan subnet E2 dan A10 menjadi F2
+
+![image](https://user-images.githubusercontent.com/34309557/203212619-b1114c1f-6de2-492f-9c03-5acda24d872f.png)
+
+**Gabungan Subnet Keenam (Subnet G)**
+
+
 
 
 
