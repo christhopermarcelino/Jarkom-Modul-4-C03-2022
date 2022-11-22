@@ -12,6 +12,32 @@ Kelompok C03
 * [Kendala](#kendala)
 
 ## VLSM
+### Pembagian Subnet
+|Subnet     |Jumlah IP |Netmask   |
+|-          |-         |-         |
+|A1         |1001      |/22       |
+|A2         |2         |/30       |
+|A3         |251       |/24       |
+|A4         |2         |/30       |
+|A5         |51        |/26       |
+|A6         |2         |/30       |
+|A7         |2         |/30       |
+|A8         |2         |/30       |
+|A9         |271       |/23       |
+|A10        |2         |/30       |
+|A11        |121       |/25       |
+|A12        |2         |/30       |
+|A13        |121       |/25       |
+|A14        |71        |/25       |
+|A15        |2         |/30       |
+|A16        |211       |/24       |
+|A17        |2         |/30       |
+|A18        |501       |/23       |
+|Total      |2617      |/20       |
+
+### Pohon Pembagian IP
+
+### Topologi CPT
 
 ## CIDR
 ### Topologi pada GNS3
