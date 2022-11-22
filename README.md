@@ -12,7 +12,10 @@ Kelompok C03
 * [Kendala](#kendala)
 
 ## VLSM
-### Pembagian Subnet
+### Pembagian Subnet  
+![image](https://user-images.githubusercontent.com/78243059/203344332-3ccacfb6-86d7-448e-83b2-3ed3c0b3083c.png)
+
+
 |Subnet     |Jumlah IP |Netmask   |
 |-          |-         |-         |
 |A1         |1001      |/22       |
