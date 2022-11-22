@@ -58,6 +58,7 @@ Terdapat  18 subnet A pada topologi.
 - Penggabungan subnet D1 dan A3 menjadi E1
 - Penggabungan subnet D2 dan C3 menjadi E2
 
+![image](https://user-images.githubusercontent.com/34309557/203212828-7e0f2416-0420-44ef-b121-29cf0057df48.png)
 
 **Gabungan Subnet Kelima (Subnet F)**
 
@@ -68,6 +69,17 @@ Terdapat  18 subnet A pada topologi.
 
 **Gabungan Subnet Keenam (Subnet G)**
 
+- Penggabungan subnet F2 dan C4 menjadi G1
+
+![image](https://user-images.githubusercontent.com/34309557/203212948-0de71d1f-9213-46c1-948b-2efd7edb6cdb.png)
+
+**Gabungan Subnet Ketujuh (Subnet H)**
+
+- Penggabungan subnet G1 dan F1 menjadi H1
+
+![image](https://user-images.githubusercontent.com/34309557/203213091-3276f630-4ca3-44f5-8622-bdcbea3bfbb9.png)
+
+### Pohon Pembagian IP
 
 
 
