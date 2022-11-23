@@ -39,6 +39,13 @@ Kelompok C03
 |Total      |2617      |/20       |
 
 ### Pohon Pembagian IP
+![image](https://user-images.githubusercontent.com/78243059/203597286-c91301c6-3998-40d2-8c7e-475ef1c03140.png)
+
+Lanjutan dari IP 10.11.0.0/26
+
+
+![image](https://user-images.githubusercontent.com/78243059/203597476-84f8c36e-2153-44cc-aba1-70531971053e.png)
+
 
 ### Topologi CPT
 
