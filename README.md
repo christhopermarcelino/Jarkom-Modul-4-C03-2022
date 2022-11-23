@@ -221,7 +221,7 @@ auto eth0
 iface eth0 inet static
 address 10.11.96.2
 netmask 255.255.252.252
-address 10.11.96.1
+gateway 10.11.96.1
 
 auto eth1
 iface eth1 inet static
@@ -397,5 +397,9 @@ iface eth2 inet static
 address 10.11.0.1
 netmask 255.255.255.0
 ```
+
+### Routing
+
+
 
 ## Kendala
