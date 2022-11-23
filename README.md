@@ -137,4 +137,79 @@ Berikut ini adalah tabel pembagian IP berdasarkan pohon IP untuk setiap subnet.
 |A17        |10.11.8.128    |255.255.255.128  |/25       |
 |A18        |10.11.8.0      |255.255.255.128  |/25       |
 
+### Konfigurasi ETH pada Network Configuration
+
+**TheResonance**
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet dhcp
+
+auto eth1
+iface eth1 inet static
+address 10.11.96.1
+netmask 255.255.252.252
+
+auto eth2
+iface eth2 inet static
+address 10.11.36.1
+netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+address 10.11.34.1
+netmask 255.255.255.252
+
+auto eth4
+iface eth4 inet static
+address  10.11.16.1
+netmask 255.255.255.252
+```
+
+**TheBeast**
+```
+auto eth0
+iface eth0 inet static
+address 10.11.36.2
+netmask 255.255.255.252
+gateway 10.11.36.1
+```
+
+**TheMagical**
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.11.34.2
+netmask 255.255.255.252
+gateway 10.11.34.1
+
+auto eth1
+iface eth1 inet static
+address 10.11.32.1
+netmask 255.255.254.0
+```
+
+**Haines**
+```
+auto eth0
+iface eth0 inet static
+address 10.11.32.2
+netmask 255.255.254.0
+gateway 10.11.32.1
+```
+
+**Corvekt**
+```
+auto eth0
+iface eth0 inet static
+address 10.11.32.3
+netmask 255.255.254.0
+gateway 10.11.32.1
+```
+
 ## Kendala
