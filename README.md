@@ -256,7 +256,7 @@ address 10.11.65.1
 netmask 255.255.255.252
 ```
 
-**Guideau***
+**Guideau**
 ```
 auto eth0
 iface eth0 inet static
