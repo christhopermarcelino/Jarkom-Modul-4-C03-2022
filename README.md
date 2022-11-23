@@ -45,7 +45,7 @@ Kelompok C03
 ## CIDR
 ### Topologi pada GNS3
 
-![image](https://user-images.githubusercontent.com/34309557/203185983-fee42a6f-93a9-4460-9a29-25d9522f84b3.png)
+![image](https://user-images.githubusercontent.com/34309557/203568052-a745cd73-bb0f-41e8-9ef0-94bfb8029dd5.png)
 
 Metode CIDR adalah metode pembagian IP dengan cara menggabung-gabungkan subnet-subnet terkecil yang terjauh dari internet (awan) hingga menjadi satu subnet besar. Kemudian, dari satu subnet besar tersebut, pembagian pohon IP dapat dilakukan. Hal ini mirip dengan konsep bottom up approach.
 
