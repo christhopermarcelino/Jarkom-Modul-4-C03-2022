@@ -48,6 +48,8 @@ Lanjutan dari IP 10.11.0.0/26
 
 
 ### Topologi CPT
+![image](https://user-images.githubusercontent.com/78243059/203598083-c4ab1409-8f7d-42bb-8cc2-3e867f8c1ce7.png)
+
 
 ## CIDR
 ### Topologi pada GNS3
