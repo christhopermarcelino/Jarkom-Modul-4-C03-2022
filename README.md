@@ -150,7 +150,7 @@ iface eth0 inet dhcp
 auto eth1
 iface eth1 inet static
 address 10.11.96.1
-netmask 255.255.252.252
+netmask 255.255.255.252
 
 auto eth2
 iface eth2 inet static
@@ -298,6 +298,104 @@ iface eth0 inet static
 address 10.11.64.3
 netmask 255.255.255.0
 gateway 10.11.64.1
+```
+
+**TheInstrument**
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.11.16.2
+netmask 255.255.255.252
+gateway 10.11.16.1
+
+auto eth1
+iface eth1 inet static
+address 10.11.9.1
+netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+address 10.11.12.1
+netmask 255.255.255.128
+
+auto eth3
+iface eth3 inet static
+address 10.11.4.1
+netmask 255.255.255.252
+```
+
+**MattCugas**
+```
+auto eth0
+iface eth0 inet static
+address 10.11.12.2
+netmask 255.255.255.128
+gateway 10.11.12.1
+```
+
+**TheProfound**
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.11.9.2
+netmask 255.255.255.252
+gateway 10.11.9.1
+
+auto eth1
+iface eth1 inet static
+address 10.11.8.128
+netmask 255.255.255.129
+
+auto eth2
+iface eth2 inet static
+address 10.11.8.1
+netmask 255.255.255.128
+```
+
+**Spendrow**
+```
+auto eth0
+iface eth0 inet static
+address 10.11.8.130
+netmask 255.255.255.128
+gateway 10.11.8.129
+```
+
+**Helga**
+```
+auto eth0
+iface eth0 inet static
+address 10.11.8.2
+netmask 255.255.255.128
+gateway 10.11.8.1
+```
+
+**Firefist**
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.11.4.2
+netmask 255.255.255.252
+gateway 10.11.4.1
+
+auto eth1
+iface eth1 inet static
+address 10.11.2.1
+netmask 255.255.254.0
+
+auto eth2
+iface eth2 inet static
+address 10.11.0.1
+netmask 255.255.255.0
 ```
 
 ## Kendala
