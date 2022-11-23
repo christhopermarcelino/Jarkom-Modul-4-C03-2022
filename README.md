@@ -243,7 +243,7 @@ auto eth0
 iface eth0 inet static
 address 10.11.72.2
 netmask 255.255.255.252
-address 10.11.72.1
+gateway 10.11.72.1
 
 auto eth1
 iface eth1 inet static
@@ -254,6 +254,50 @@ auto eth2
 iface eth2 inet static
 address 10.11.65.1
 netmask 255.255.255.252
+```
+
+**Guideau***
+```
+auto eth0
+iface eth0 inet static
+address 10.11.68.2
+netmask 255.255.252.0
+gateway 10.11.68.1
+```
+
+**TheDauntless**
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.11.65.2
+netmask 255.255.255.252
+gateway 10.11.65.1
+
+auto eth1
+iface eth1 inet static
+address 10.11.64.1
+netmask 255.255.255.0
+```
+
+**Phanora**
+```
+auto eth0
+iface eth0 inet static
+address 10.11.64.2
+netmask 255.255.255.0
+gateway 10.11.64.1
+```
+
+**Johan**
+```
+auto eth0
+iface eth0 inet static
+address 10.11.64.3
+netmask 255.255.255.0
+gateway 10.11.64.1
 ```
 
 ## Kendala
