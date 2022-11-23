@@ -13,7 +13,7 @@ Kelompok C03
 
 ## VLSM
 ### Pembagian Subnet  
-![image](https://user-images.githubusercontent.com/78243059/203344332-3ccacfb6-86d7-448e-83b2-3ed3c0b3083c.png)
+![image](https://user-images.githubusercontent.com/78243059/203458942-d5454a32-cf54-48a4-9a02-90cfc897e7f4.png)
 
 
 |Subnet     |Jumlah IP |Netmask   |
