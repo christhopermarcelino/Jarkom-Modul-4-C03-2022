@@ -400,6 +400,25 @@ netmask 255.255.255.0
 
 ### Routing
 
+**TheMinister**
+```
+route add -net 10.11.80.0 netmask 255.255.255.192 gw 10.11.96.2
+route add -net 10.11.96.0 netmask 255.255.255.252 gw 10.11.96.2
+route add -net 10.11.36.0 netmask 255.255.255.252 gw 10.11.96.2
+route add -net 10.11.34.0 netmask 255.255.255.252 gw 10.11.96.2
+route add -net 10.11.32.0 netmask 255.255.254.0 gw 10.11.96.2
+route add -net 10.11.64.0 netmask 255.255.255.0 gw 10.11.65.2
+route add -net 10.11.16.0 netmask 255.255.255.252 gw 10.11.96.2
+route add -net 10.11.12.0 netmask 255.255.255.128 gw 10.11.96.2
+route add -net 10.11.4.0 netmask 255.255.255.252 gw 10.11.96.2
+route add -net 10.11.2.0 netmask 255.255.254.0 gw 10.11.96.2
+route add -net 10.11.0.0 netmask 255.255.255.0 gw 10.11.96.2
+route add -net 10.11.1.0 netmask 255.255.255.252 gw 10.11.96.2
+route add -net 10.11.9.0 netmask 255.255.255.252 gw 10.11.96.2
+route add -net 10.11.8.128 netmask 255.255.255.128 gw 10.11.96.2
+route add -net 10.11.8.0 netmask 255.255.255.128 gw 10.11.96.2
+```
+
 
 
 ## Kendala
