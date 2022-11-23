@@ -212,4 +212,48 @@ netmask 255.255.254.0
 gateway 10.11.32.1
 ```
 
+**TheOrder**
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.11.96.2
+netmask 255.255.252.252
+address 10.11.96.1
+
+auto eth1
+iface eth1 inet static
+address 10.11.80.1
+netmask 255.255.252.192
+
+auto eth2
+iface eth2 inet static
+address 10.11.72.1
+netmask 255.255.255.252
+```
+
+**TheMinister**
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.11.72.2
+netmask 255.255.255.252
+address 10.11.72.1
+
+auto eth1
+iface eth1 inet static
+address 10.11.68.1
+netmask 255.255.252.0
+
+auto eth2
+iface eth2 inet static
+address 10.11.65.1
+netmask 255.255.255.252
+```
+
 ## Kendala
