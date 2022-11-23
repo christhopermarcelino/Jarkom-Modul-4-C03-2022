@@ -85,7 +85,7 @@ Terdapat  18 subnet A pada topologi.
 **Gabungan Subnet Keempat (Subnet E)**
 
 - Penggabungan subnet D1 dan A3 menjadi E1
-- Penggabungan subnet D2 dan C3 menjadi E2
+- Penggabungan subnet D2, C3 dan A11 menjadi E2
 
 ![image](https://user-images.githubusercontent.com/34309557/203212828-7e0f2416-0420-44ef-b121-29cf0057df48.png)
 
