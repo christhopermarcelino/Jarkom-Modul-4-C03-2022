@@ -112,7 +112,7 @@ Terdapat  18 subnet A pada topologi.
 
 Setelah melakukan pembagian dan penggabungan subnet, pohon IP dapat dibuat dengan mula-mula memecah kembali satu subnet besar yang merupakan gabungan dari semua subnet yang ada.
 
-![image](https://user-images.githubusercontent.com/34309557/203242453-493f0f94-e6a2-4879-ba12-2130dc6b4560.png)
+![image](https://user-images.githubusercontent.com/34309557/203493507-c9ac7360-fbee-48c8-a29e-dee435cd3ac6.png)
 
 Berikut ini adalah tabel pembagian IP berdasarkan pohon IP untuk setiap subnet.
 
@@ -128,14 +128,13 @@ Berikut ini adalah tabel pembagian IP berdasarkan pohon IP untuk setiap subnet.
 |A8         |10.11.65.0     |255.255.255.252  |/30       |
 |A9         |10.11.64.0     |255.255.255.0    |/24       |
 |A10        |10.11.16.0     |255.255.255.252  |/30       |
-|A11        
-|A12        |2         |/30       |
-|A13        |121       |/25       |
-|A14        |71        |/25       |
-|A15        |2         |/30       |
-|A16        |211       |/24       |
-|A17        |2         |/30       |
-|A18        |501       |/23       |
-|Total      |2617      |/20       |
+|A11        |10.11.12.0     |255.255.255.128  |/25       |      
+|A12        |10.11.4.0      |255.255.255.252  |/30       |
+|A13        |10.11.2.0      |255.255.254.0    |/23       |
+|A14        |10.11.0.0      |255.255.255.0    |/24       |
+|A15        |10.11.1.0      |255.255.255.252  |/30       |
+|A16        |10.11.9.0      |255.255.255.252  |/30       |
+|A17        |10.11.8.128    |255.255.255.128  |/25       |
+|A18        |10.11.8.0      |255.255.255.128  |/25       |
 
 ## Kendala
