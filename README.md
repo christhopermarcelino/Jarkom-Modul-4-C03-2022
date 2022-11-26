@@ -407,45 +407,47 @@ address 10.11.0.1
 netmask 255.255.255.0
 ```
 
+**Ashaf**
+```
+auto eth0
+iface eth0 inet static
+address 10.11.80.2
+netmask 255.255.255.128
+gateway 10.11.80.1
+```
+
 ### Routing
+
+**TheResonance**
+```
+route add -net 10.11.68.0 netmask 255.255.252.0 gw 10.11.96.2
+route add -net 10.11.72.0 netmask 255.255.255.252 gw 10.11.96.2
+route add -net 10.11.80.0 netmask 255.255.255.192 gw 10.11.96.2
+route add -net 10.11.65.0 netmask 255.255.255.252 gw 10.11.96.2
+route add -net 10.11.64.0 netmask 255.255.255.0 gw 10.11.96.2
+route add -net 10.11.32.0 netmask 255.255.254.0 gw 10.11.34.2
+route add -net 10.11.12.0 netmask 255.255.255.128 gw 10.11.16.2
+route add -net 10.11.4.0 netmask 255.255.255.252 gw 10.11.16.2
+route add -net 10.11.2.0 netmask 255.255.254.0 gw 10.11.16.2
+route add -net 10.11.0.0 netmask 255.255.255.0 gw 10.11.16.2
+route add -net 10.11.1.0 netmask 255.255.255.252 gw 10.11.16.2
+route add -net 10.11.9.0 netmask 255.255.255.252 gw 10.11.16.2
+route add -net 10.11.8.128 netmask 255.255.255.128 gw 10.11.16.2
+route add -net 10.11.8.0 netmask 255.255.255.128 gw 10.11.16.2
+```
+
+**TheOrder**
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.11.96.1
+route add -net 10.11.68.0 netmask 255.255.252.0 gw 10.11.72.2
+route add -net 10.11.65.0 netmask 255.255.255.252 gw 10.11.72.2
+route add -net 10.11.64.0 netmask 255.255.255.0 gw 10.11.72.2
+```
 
 **TheMinister**
 ```
-route add -net 10.11.80.0 netmask 255.255.255.192 gw 10.11.72.1
-route add -net 10.11.96.0 netmask 255.255.255.252 gw 10.11.72.1
-route add -net 10.11.36.0 netmask 255.255.255.252 gw 10.11.72.1
-route add -net 10.11.34.0 netmask 255.255.255.252 gw 10.11.72.1
-route add -net 10.11.32.0 netmask 255.255.254.0 gw 10.11.72.1
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.11.72.1
 route add -net 10.11.64.0 netmask 255.255.255.0 gw 10.11.65.2
-route add -net 10.11.16.0 netmask 255.255.255.252 gw 10.11.72.1
-route add -net 10.11.12.0 netmask 255.255.255.128 gw 10.11.72.1
-route add -net 10.11.4.0 netmask 255.255.255.252 gw 10.11.72.1
-route add -net 10.11.2.0 netmask 255.255.254.0 gw 10.11.72.1
-route add -net 10.11.0.0 netmask 255.255.255.0 gw 10.11.72.1
-route add -net 10.11.1.0 netmask 255.255.255.252 gw 10.11.72.1
-route add -net 10.11.9.0 netmask 255.255.255.252 gw 10.11.72.1
-route add -net 10.11.8.128 netmask 255.255.255.128 gw 10.11.72.1
-route add -net 10.11.8.0 netmask 255.255.255.128 gw 10.11.72.1
-```
-
-**The Dauntless**
-```
-route add -net 10.11.68.0 netmask 255.255.252.0 gw 10.11.65.1
-route add -net 10.11.72.0 netmask 255.255.255.252 gw 10.11.65.1
-route add -net 10.11.80.0 netmask 255.255.255.192 gw 10.11.65.1
-route add -net 10.11.96.0 netmask 255.255.255.252 gw 10.11.65.1
-route add -net 10.11.36.0 netmask 255.255.255.252 gw 10.11.65.1
-route add -net 10.11.34.0 netmask 255.255.255.252 gw 10.11.65.1
-route add -net 10.11.32.0 netmask 255.255.254.0 gw 10.11.65.1
-route add -net 10.11.16.0 netmask 255.255.255.252 gw 10.11.65.1
-route add -net 10.11.12.0 netmask 255.255.255.128 gw 10.11.65.1
-route add -net 10.11.4.0 netmask 255.255.255.252 gw 10.11.65.1
-route add -net 10.11.2.0 netmask 255.255.254.0 gw 10.11.65.1
-route add -net 10.11.0.0 netmask 255.255.255.0 gw 10.11.65.1
-route add -net 10.11.1.0 netmask 255.255.255.252 gw 10.11.65.1
-route add -net 10.11.9.0 netmask 255.255.255.252 gw 10.11.65.1
-route add -net 10.11.8.128 netmask 255.255.255.128 gw 10.11.65.1
-route add -net 10.11.8.0 netmask 255.255.255.128 gw 10.11.65.1
 ```
 
 
