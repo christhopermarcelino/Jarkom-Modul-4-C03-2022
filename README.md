@@ -450,6 +450,34 @@ route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.11.72.1
 route add -net 10.11.64.0 netmask 255.255.255.0 gw 10.11.65.2
 ```
 
+**TheInstrument**
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.11.16.1
 
+route add -net 10.11.0.0 netmask 255.255.255.0 gw 10.11.4.2
+route add -net 10.11.1.0 netmask 255.255.255.0 gw 10.11.4.2
+route add -net 10.11.2.0 netmask 255.255.254.0 gw 10.11.4.2
+
+route add -net 10.11.8.128 netmask 255.255.255.128 gw 10.11.9.2
+route add -net 10.11.8.0 netmask 255.255.255.128 gw 10.11.9.2
+```
+
+**TheFirefist**
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.11.4.1
+route add -net 10.11.1.0 netmask 255.255.255.252 gw 10.11.0.2
+```
+
+**TheQueen**
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.11.0.1
+```
+
+**Keith**
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.11.0.1
+route add -net 10.11.1.0 netmask 255.255.255.252 gw 10.11.0.2
+```
 
 ## Kendala
+- Kendala dalam routing pada GNS3
