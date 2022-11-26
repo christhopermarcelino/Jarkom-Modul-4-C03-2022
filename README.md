@@ -125,26 +125,26 @@ Setelah melakukan pembagian dan penggabungan subnet, pohon IP dapat dibuat denga
 
 Berikut ini adalah tabel pembagian IP berdasarkan pohon IP untuk setiap subnet.
 
-|Subnet     |IP  Address    |Subnet Mask      |Netmask   |
-|-          |-              |-                |-         |
-|A1         |10.11.68.0     |255.255.252.0    |/22       |
-|A2         |10.11.72.0     |255.255.255.252  |/30       |
-|A3         |10.11.80.0     |255.255.255.192  |/26       |
-|A4         |10.11.96.0     |255.255.255.252  |/30       |
-|A5         |10.11.36.0     |255.255.255.252  |/30       |
-|A6         |10.11.34.0     |255.255.255.252  |/30       |
-|A7         |10.11.32.0     |255.255.254.0    |/23       |
-|A8         |10.11.65.0     |255.255.255.252  |/30       |
-|A9         |10.11.64.0     |255.255.255.0    |/24       |
-|A10        |10.11.16.0     |255.255.255.252  |/30       |
-|A11        |10.11.12.0     |255.255.255.128  |/25       |      
-|A12        |10.11.4.0      |255.255.255.252  |/30       |
-|A13        |10.11.2.0      |255.255.254.0    |/23       |
-|A14        |10.11.0.0      |255.255.255.0    |/24       |
-|A15        |10.11.1.0      |255.255.255.252  |/30       |
-|A16        |10.11.9.0      |255.255.255.252  |/30       |
-|A17        |10.11.8.128    |255.255.255.128  |/25       |
-|A18        |10.11.8.0      |255.255.255.128  |/25       |
+|Subnet     |IP  Address    |Subnet Mask      |Netmask   | Anggota Host                       |
+|-          |-              |-                |-         | -                                  |
+|A1         |10.11.68.0     |255.255.252.0    |/22       | TheMinister - Guideau              |
+|A2         |10.11.72.0     |255.255.255.252  |/30       | TheMinister - TheOrder             |
+|A3         |10.11.80.0     |255.255.255.192  |/26       | TheOrder - Ashaf                   |
+|A4         |10.11.96.0     |255.255.255.252  |/30       | TheOrder - TheResonance            |
+|A5         |10.11.36.0     |255.255.255.252  |/30       | TheResonance - TheBeast            |
+|A6         |10.11.34.0     |255.255.255.252  |/30       | TheResonance - TheMagical          |
+|A7         |10.11.32.0     |255.255.254.0    |/23       | TheMagical - Haines - Corvekt      |
+|A8         |10.11.65.0     |255.255.255.252  |/30       | TheMinister - TheDauntless         |
+|A9         |10.11.64.0     |255.255.255.0    |/24       | TheDauntless - Phanora - Johan     |
+|A10        |10.11.16.0     |255.255.255.252  |/30       | TheResonance - TheInstrument       |
+|A11        |10.11.12.0     |255.255.255.128  |/25       | TheInstrument - MattCugas          |
+|A12        |10.11.4.0      |255.255.255.252  |/30       | TheInstrument - TheFirefist        |
+|A13        |10.11.2.0      |255.255.254.0    |/23       | TheFirefist - Oakleave             |
+|A14        |10.11.0.0      |255.255.255.0    |/24       | TheFirefist - TheQueen - Keith     |
+|A15        |10.11.1.0      |255.255.255.252  |/30       | TheQueen - TheWitch                |
+|A16        |10.11.9.0      |255.255.255.252  |/30       | TheInstrument - TheProfound        |
+|A17        |10.11.8.128    |255.255.255.128  |/25       | TheProfound - Spendrow             |
+|A18        |10.11.8.0      |255.255.255.128  |/25       | TheProfound - Helga                |
 
 ### Konfigurasi ETH pada Network Configuration
 
